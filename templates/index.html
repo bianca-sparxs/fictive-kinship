@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+
+</head>
+<title>{% block title %}{% endblock %} Fiction vs Reality </title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+  <h1>Hello</h1>
+  {{ question }}
+
+	{% if qtype == "tf" %}
+		<p>t/f</p>
+	{% elif qtype == "5 point scale" %}
+	<div style="margin-top: 2vw;">
+		<h4> Choose which typeface </h4>
+		<div>
+			<input type="radio" value="atlas" name="typeface">
+			<label for="scales">Not Really</label>
+			<input type="radio" value="atlas" name="typeface">
+				<label for="scales">Sorta</label>
+			<input type="radio" value="atlas" name="typeface">
+				<label for="scales">Kinda</label>
+			<input type="radio" value="atlas" name="typeface">
+				<label for="scales">Really Like</label>
+
+		</div>
+	{% else %}
+	<p>hello</p>
+	{% endif %}
+	
+	
+
+
+
+
+
+</html>

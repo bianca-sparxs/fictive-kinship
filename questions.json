@@ -1,0 +1,14 @@
+[
+    {"number": 1,
+    "question": "quiz question 1",
+    "type": "tf"},
+    {"number": 2,
+    "question": "quiz question 2",
+    "type": "5 point scale"},
+    
+    {"number": 3,
+    "question": "quiz question 3",
+    "type":"tf"}
+ 
+
+]
